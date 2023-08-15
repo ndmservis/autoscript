@@ -189,8 +189,6 @@ echo -e "GET / HTTP/1.1[crlf]Host: $domen[crlf]Connection: Keep-Alive[crlf]User-
 echo -e "${BIBlue}══════════════════════════════════${NC}"
 echo -e "GET wss://bug.com [protocol][crlf]Host: ${domain}[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf] \n"
 echo -e "${BIBlue}══════════════════════════════════${NC}"
-echo -e "SETING HOST SSH echo -e "$domen:80@$Login:$Pass"
-echo -e "${BIBlue}══════════════════════════════════${NC}"
 echo -e "${BICyan} Vpro Premium VPN Auto Script Service${NC}" 
 fi
 echo "" | tee -a /etc/log-create-user.log
