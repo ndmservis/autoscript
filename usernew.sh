@@ -156,6 +156,8 @@ echo -e "UDPGW      : 7100-7300"
 echo -e "${BIBlue}══════════════════════════════════${NC}"
 echo -e "GET / HTTP/1.1[crlf]Host: $domen[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: ws[crlf][crlf]"
 echo -e "${BIBlue}══════════════════════════════════${NC}"
+echo -e "GET wss://bug.com [protocol][crlf]Host: ${domain}[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf] \n"
+echo -e "${BIBlue}══════════════════════════════════${NC}"
 echo -e "${BICyan} vPro Premium VPN Auto Script Service${NC}" 
 
 else
@@ -180,6 +182,8 @@ echo -e "SSH UDP    : $domen:1-65535@$Login:$Pass"
 echo -e "UDPGW      : 7100-7300" 
 echo -e "${BIBlue}══════════════════════════════════${NC}"
 echo -e "GET / HTTP/1.1[crlf]Host: $domen[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: ws[crlf][crlf]"
+echo -e "${BIBlue}══════════════════════════════════${NC}"
+echo -e "GET wss://bug.com [protocol][crlf]Host: ${domain}[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf] \n"
 echo -e "${BIBlue}══════════════════════════════════${NC}"
 echo -e "${BICyan} Vpro Premium VPN Auto Script Service${NC}" 
 fi
