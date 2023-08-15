@@ -133,6 +133,7 @@ sed -i '/#trojangrpc$/a\### '"$user $exp"'\
 
 systemctl restart xray
 trojanlink="trojan://${uuid}@${domain}:${tr}?path=%2Ftrojan-ws&security=tls&host=bug.com&type=ws&sni=bug.com#${user}"
+trojanlink2="trojan://${uuid}@isi_bug_disini:${ntls}?path=%2Ftrojan-ws&security=none&host=${domain}&type=ws#${user}"
 trojanlink1="trojan://${uuid}@${domain}:${tr}?mode=gun&security=tls&type=grpc&serviceName=trojan-grpc&sni=bug.com#${user}"
 clear
 echo -e "${BIBlue}════════════XRAY/TROJANWS════════════${NC}"
@@ -148,9 +149,12 @@ echo -e "${BIBlue}════════════════════�
 echo -e "Link WS : "
 echo -e "${trojanlink}" 
 echo -e "${BIBlue}════════════════════════════════════${NC} "
+echo -e "Link NTLS : "
+echo -e "${trojanlink2}"
+echo -e "${BIBlue}════════════════════════════════════${NC} "
 echo -e "Link GRPC : "
 echo -e "${trojanlink1}"
-echo -e "${BIBlue}════════════════════════════════════${NC}" 
+echo -e "${BIBlue}════════════════════════════════════${NC}"
 echo -e "${BICyan} vPro Premium VPN Auto Script Service${NC}" 
 echo "" 
 read -n 1 -s -r -p "Press any key to back on menu"
