@@ -103,7 +103,7 @@ echo -e "$BICyan┌────────────────────�
 echo -e "$BICyan│                  MENU SETTINGS                  │$NC"
 echo -e "$BICyan└─────────────────────────────────────────────────┘${NC}"
 echo -e " $BICyan┌───────────────────────────────────────────────┐${NC}"
-echo -e " $BICyan│$NC   ${BICyan}[1]${NC}  • ADD Host/Domain"
+echo -e " $BICyan│$NC   ${BICyan}[1]${NC}  • Ganti Host/Domain"
 echo -e " $BICyan│$NC   ${BICyan}[2]${NC}  • Renew CertXRAY"
 echo -e " $BICyan│$NC   ${BICyan}[3]${NC}  • Check Running"
 echo -e " $BICyan│$NC   ${BICyan}[4]${NC}  • Change Banner SSH "
