@@ -185,12 +185,10 @@ echo -e " ${BIRed}│  ${BICyan}  IP-VPS         : ${BIGreen}$IPVPS${NC}"
 echo -e " ${BIRed}│  ${BICyan}  ISP-Name       : ${BIGreen}$ISP${NC}"
 echo -e " ${BIRed}│  ${BIYellow}  DATE&TIME      : $( date -d "0 days" +"%d-%m-%Y | %X" ) ${NC}"
 echo -e " ${BIRed}└─────────────────────────────────────────────────────┘${NC}"
-echo -e "${BIRed} ┌───────────────────────────┐ ┌──────┐ ┌──────┐   ┌──────┐${NC}" 
+echo -e "${BIRed} ┌─────────────────────────────────────────────────────┐${NC}" 
 echo -e "${BIRed} │ \033[0m ${BOLD}${PURPLE}   SSH     VMESS      VLESS      TROJAN $NC" 
-echo -e "${BIRed} └───────────────────────────┘ └──────┘ └──────┘   └──────┘
-echo -e "${BIRed} ┌──────────────────────────┐  ┌──────┐  ┌──────┐   ┌──────┐ 
 echo -e "${BIRed} │ \033[0m ${Blue}    $ssh1            $vma       $vla       $tra $NC" 
-echo -e "${BIRed} └──────────────────────────┘  └──────┘  └──────┘   └──────┘${NC}" 
+echo -e "${BIRed} └─────────────────────────────────────────────────────┘${NC}" 
 
 echo -e " ${BIPurple}    SSH ${NC}: $ressh"" ${BIPurple} NGINX ${NC}: $resngx"" ${BIPurple}  XRAY ${NC}: $resv2r"" ${BIPurple} TROJAN ${NC}: $resv2r"
 echo -e " ${BIPurple}            DROPBEAR ${NC}: $resdbr" "${BIPurple} SSH-WS ${NC}: $ressshws"
