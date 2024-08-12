@@ -143,7 +143,7 @@ exp=$(grep -E "^### " "/etc/xray/config.json" | cut -d ' ' -f 3 | sed -n "${CLIE
 hariini=`date -d "0 days" +"%Y-%m-%d"`
 asu=`cat<<EOF
       {
-      "v": "1",
+      "v": "2",
       "ps": "${user}",
       "add": "${domain}",
       "port": "443",
@@ -158,7 +158,7 @@ asu=`cat<<EOF
 EOF`
 ask=`cat<<EOF
       {
-      "v": "1",
+      "v": "2",
       "ps": "${user}",
       "add": "${domain}",
       "port": "80",
@@ -240,7 +240,7 @@ sed -i '/#vmessgrpc$/a\### '"$user $exp"'\
 },{"id": "'""$uuid""'","alterId": '"0"',"email": "'""$user""'"' /etc/xray/config.json
 asu=`cat<<EOF
       {
-      "v": "1",
+      "v": "2",
       "ps": "${user}",
       "add": "${domain}",
       "port": "443",
@@ -255,7 +255,7 @@ asu=`cat<<EOF
 EOF`
 ask=`cat<<EOF
       {
-      "v": "1",
+      "v": "2",
       "ps": "${user}",
       "add": "${domain}",
       "port": "80",
@@ -270,7 +270,7 @@ ask=`cat<<EOF
 EOF`
 grpc=`cat<<EOF
       {
-      "v": "1",
+      "v": "2",
       "ps": "${user}",
       "add": "${domain}",
       "port": "443",
